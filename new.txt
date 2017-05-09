@@ -1,0 +1,255 @@
+脚本启动于 2017年05月04日 星期四 15时20分12秒
+]0;root@newpc: /home/swordroot@newpc:/home/sword# ssh lijian7@relay.xiaomi.com[K]0;root@newpc: /home/swordroot@newpc:/home/sword# ssh lijian7@relay.xiaomi.com[K]0;root@newpc: /home/swordroot@newpc:/home/sword# ssh lijian7@relay.xiaomi.com
+Warning: Permanently added the RSA host key for IP address '10.108.5.13' to the list of known hosts.
+Your [EMAIL] password: 
+Your [VPN] token: 
+Last login: Wed May  3 15:33:24 2017 from 10.235.157.203
+                             oo$$$$$$$$$$oo
+                          oooo$$$$$$$$$$$$oooo
+                      oo$$$$$$$$$$$$$$$$$$$$$$$$o
+                   oo$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o         o$   $$ o$
+   o $ oo        o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o       $$ $$ $$o$
+oo $ $ "$      o$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$o       $$$o$$o$
+"$$$$$$o$     o$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$o    $$$$$$$$
+  $$$$$$$    $$$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$$$$$$$$$$$$$$
+  $$$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$$$$$$  """$$$
+   "$$$""""$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$
+    $$$   o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$o
+   o$$"   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$       $$$o
+   $$$    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" "$$$$$$ooooo$$$$o
+  o$$$oooo$$$$$  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   o$$$$$$$$$$$$$$$$$
+  $$$$$$$$"$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     $$$$""""""""
+ """"       $$$$    "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"      o$$$
+            "$$$o     """$$$$$$$$$$$$$$$$$$"$$"         $$$
+              $$$o          "$$""$$$$$$""""           o$$$
+               $$$$o                                o$$$"
+                "$$$$o      o$$$$$$o"$$$$o        o$$$$
+                  "$$$$$oo     ""$$$$o$$$$$o   o$$$$""
+                     ""$$$$$oooo  "$$$o$$$$$$$$$"""
+                        ""$$$$$$$oo $$$$$$$$$$
+                                """"$$$$$$$$$$$
+                                    $$$$$$$$$$$$
+                                     $$$$$$$$$$"
+                                      "$$$""""
+                                      "$$$""""
+
+[31m【用法】
+[31m* 直接在relay-shell>提示符后面输入主机名，然后按回车即可登录：
+    [32mrelay-shell>[0m c3-pt-relay02.bj <按回车>
+[31m* 或者输入shell进入bash，以进行批量hd登录等操作
+    [32mrelay-shell>[0m shell <按回车>
+[31m* 在任何情况下连按两次tab键可以自动补全
+[0m[Usage]
+Type ip address or hostname to connect to the speificed host, 
+or commands listed below to launch the corresponding feature.
+* Use TAB for auto-complete, CTRL+R for reverse-search
+* Try pressing the Tab key twice to see all the hosts you have access to
+
+Command list:
+	shell:		where you show off your bash programming skills
+	help:		show this message
+	exit		exit this place
+
+[?1034h[32mrelay-shell>[0m ssh   ssh ubuntu@10.38.11.193
+Invalid hostname/ip
+[32mrelay-shell>[0m anaVF1M#ByTgtO&x
+Invalid hostname/ip
+[32mrelay-shell>[0m ss  tj-g-vm-publishing-prod-ranch0-g0.kscn[1P[1@1
+About to connect to tj-g-vm-publishing-prod-ranch0-g1.kscn...
+
+**********************************
+ heimdallr welcome lijian7
+**********************************
+
+
+]0;root@tj-g-vm-publishing-prod-ranch0-g1:~[?1034h[root@tj-g-vm-publishing-prod-ranch0-g1 ~]# ssh ubuntu@10.38.11.193
+ubuntu@10.38.11.193's password: 
+Welcome to Ubuntu 14.04.3 LTS (GNU/Linux 3.13.0-63-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Thu May  4 15:14:10 CST 2017
+
+  System load:  0.0               Processes:           330
+  Usage of /:   5.3% of 19.56GB   Users logged in:     1
+  Memory usage: 0%                IP address for eth0: 10.38.11.193
+  Swap usage:   0%
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+0 packages can be updated.
+0 updates are security updates.
+
+New release '16.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Thu May  4 15:14:10 2017 from 10.38.11.200
+]0;ubuntu@vm10-38-11-193: ~ubuntu@vm10-38-11-193:~$ df [K
+Filesystem     1K-blocks    Used Available Use% Mounted on
+/dev/vda1       20509308 1084936  18359516   6% /
+none                   4       0         4   0% /sys/fs/cgroup
+udev            32977276       4  32977272   1% /dev
+tmpfs            6597628     368   6597260   1% /run
+none                5120       0      5120   0% /run/lock
+none            32988124      16  32988108   1% /run/shm
+none              102400       0    102400   0% /run/user
+]0;ubuntu@vm10-38-11-193: ~ubuntu@vm10-38-11-193:~$ ll /bin
+total 9812
+drwxr-xr-x  2 root root    4096 Apr  7  2016 [0m[01;34m.[0m/
+drwxr-xr-x 22 root root    4096 Aug 17  2016 [01;34m..[0m/
+-rwxr-xr-x  1 root root 1021112 Oct  8  2014 [01;32mbash[0m*
+-rwxr-xr-x  3 root root   31152 Oct 21  2013 [01;32mbunzip2[0m*
+-rwxr-xr-x  1 root root 1918032 Nov 15  2013 [01;32mbusybox[0m*
+-rwxr-xr-x  3 root root   31152 Oct 21  2013 [01;32mbzcat[0m*
+lrwxrwxrwx  1 root root       6 Aug 25  2015 [01;36mbzcmp[0m -> [01;32mbzdiff[0m*
+-rwxr-xr-x  1 root root    2140 Oct 21  2013 [01;32mbzdiff[0m*
+lrwxrwxrwx  1 root root       6 Aug 25  2015 [01;36mbzegrep[0m -> [01;32mbzgrep[0m*
+-rwxr-xr-x  1 root root    4877 Oct 21  2013 [01;32mbzexe[0m*
+lrwxrwxrwx  1 root root       6 Aug 25  2015 [01;36mbzfgrep[0m -> [01;32mbzgrep[0m*
+-rwxr-xr-x  1 root root    3642 Oct 21  2013 [01;32mbzgrep[0m*
+-rwxr-xr-x  3 root root   31152 Oct 21  2013 [01;32mbzip2[0m*
+-rwxr-xr-x  1 root root   14480 Oct 21  2013 [01;32mbzip2recover[0m*
+lrwxrwxrwx  1 root root       6 Aug 25  2015 [01;36mbzless[0m -> [01;32mbzmore[0m*
+-rwxr-xr-x  1 root root    1297 Oct 21  2013 [01;32mbzmore[0m*
+-rwxr-xr-x  1 root root   47904 Jan 14  2015 [01;32mcat[0m*
+-rwxr-xr-x  1 root root   60160 Jan 14  2015 [01;32mchgrp[0m*
+-rwxr-xr-x  1 root root   56032 Jan 14  2015 [01;32mchmod[0m*
+-rwxr-xr-x  1 root root   60160 Jan 14  2015 [01;32mchown[0m*
+-rwxr-xr-x  1 root root   10480 Feb 18  2013 [01;32mchvt[0m*
+-rwxr-xr-x  1 root root  130304 Jan 14  2015 [01;32mcp[0m*
+-rwxr-xr-x  1 root root  137272 Jan  8  2015 [01;32mcpio[0m*
+-rwxr-xr-x  1 root root  121272 Feb 19  2014 [01;32mdash[0m*
+-rwxr-xr-x  1 root root   60160 Jan 14  2015 [01;32mdate[0m*
+-rwxr-xr-x  1 root root   10536 Nov 26  2014 [01;32mdbus-cleanup-sockets[0m*
+-rwxr-xr-x  1 root root  434032 Nov 26  2014 [01;32mdbus-daemon[0m*
+-rwxr-xr-x  1 root root   10464 Nov 26  2014 [01;32mdbus-uuidgen[0m*
+-rwxr-xr-x  1 root root   56136 Jan 14  2015 [01;32mdd[0m*
+-rwxr-xr-x  1 root root   97736 Jan 14  2015 [01;32mdf[0m*
+-rwxr-xr-x  1 root root  110080 Jan 14  2015 [01;32mdir[0m*
+-rwxr-xr-x  1 root root   22896 Aug  5  2015 [01;32mdmesg[0m*
+lrwxrwxrwx  1 root root       8 Aug 25  2015 [01;36mdnsdomainname[0m -> [01;32mhostname[0m*
+lrwxrwxrwx  1 root root       8 Aug 25  2015 [01;36mdomainname[0m -> [01;32mhostname[0m*
+-rwxr-xr-x  1 root root   82256 Feb 18  2013 [01;32mdumpkeys[0m*
+-rwxr-xr-x  1 root root   31296 Jan 14  2015 [01;32mecho[0m*
+-rwxr-xr-x  1 root root   47712 Jul 17  2013 [01;32med[0m*
+-rwxr-xr-x  1 root root  183696 Jan 19  2014 [01;32megrep[0m*
+-rwxr-xr-x  1 root root   27168 Jan 14  2015 [01;32mfalse[0m*
+-rwxr-xr-x  1 root root   10488 Feb 18  2013 [01;32mfgconsole[0m*
+-rwxr-xr-x  1 root root  138352 Jan 19  2014 [01;32mfgrep[0m*
+-rwxr-xr-x  1 root root   36144 Aug  5  2015 [01;32mfindmnt[0m*
+-rwxr-xr-x  1 root root   31864 Nov 29  2012 [01;32mfuser[0m*
+-rwsr-xr-x  1 root root   30800 May 15  2015 [37;41mfusermount[0m*
+-rwxr-xr-x  1 root root  191952 Jan 19  2014 [01;32mgrep[0m*
+-rwxr-xr-x  2 root root    2303 Jan 10  2014 [01;32mgunzip[0m*
+-rwxr-xr-x  1 root root    5937 Jan 10  2014 [01;32mgzexe[0m*
+-rwxr-xr-x  1 root root   94048 Jan 10  2014 [01;32mgzip[0m*
+-rwxr-xr-x  1 root root   14736 Dec 13  2013 [01;32mhostname[0m*
+-rwxr-xr-x  1 root root  307328 Jul 24  2015 [01;32mip[0m*
+-rwxr-xr-x  1 root root   10480 Feb 18  2013 [01;32mkbd_mode[0m*
+-rwxr-xr-x  1 root root   23088 Feb 11  2015 [01;32mkill[0m*
+-rwxr-xr-x  1 root root  154616 Apr 10  2014 [01;32mkmod[0m*
+-rwxr-xr-x  1 root root  153664 Jun 10  2013 [01;32mless[0m*
+-rwxr-xr-x  1 root root   10440 Jun 10  2013 [01;32mlessecho[0m*
+lrwxrwxrwx  1 root root       8 Aug 25  2015 [01;36mlessfile[0m -> [01;32mlesspipe[0m*
+-rwxr-xr-x  1 root root   15912 Jun 10  2013 [01;32mlesskey[0m*
+-rwxr-xr-x  1 root root    7758 Jun 10  2013 [01;32mlesspipe[0m*
+-rwxr-xr-x  1 root root   56072 Jan 14  2015 [01;32mln[0m*
+-rwxr-xr-x  1 root root  111432 Feb 18  2013 [01;32mloadkeys[0m*
+-rwxr-xr-x  1 root root   49136 Jul 16  2015 [01;32mlogin[0m*
+-rwxr-xr-x  1 root root   92328 Jul 16  2015 [01;32mloginctl[0m*
+-rwxr-xr-x  1 root root   63912 Dec 18  2013 [01;32mlowntfs-3g[0m*
+-rwxr-xr-x  1 root root  110080 Jan 14  2015 [01;32mls[0m*
+-rwxr-xr-x  1 root root   44688 Aug  5  2015 [01;32mlsblk[0m*
+lrwxrwxrwx  1 root root       4 Aug 25  2015 [01;36mlsmod[0m -> [01;32mkmod[0m*
+-rwxr-xr-x  1 root root   51936 Jan 14  2015 [01;32mmkdir[0m*
+-rwxr-xr-x  1 root root   35456 Jan 14  2015 [01;32mmknod[0m*
+-rwxr-xr-x  1 root root   39648 Jan 14  2015 [01;32mmktemp[0m*
+-rwxr-xr-x  1 root root   39600 Aug  5  2015 [01;32mmore[0m*
+-rwsr-xr-x  1 root root   94792 Aug  5  2015 [37;41mmount[0m*
+-rwxr-xr-x  1 root root   10456 Jun 15  2015 [01;32mmountpoint[0m*
+lrwxrwxrwx  1 root root      20 Aug 25  2015 [01;36mmt[0m -> [01;32m/etc/alternatives/mt[0m*
+-rwxr-xr-x  1 root root   68760 Jan  8  2015 [01;32mmt-gnu[0m*
+-rwxr-xr-x  1 root root  122088 Jan 14  2015 [01;32mmv[0m*
+-rwxr-xr-x  1 root root  192008 Oct  1  2012 [01;32mnano[0m*
+lrwxrwxrwx  1 root root      20 Aug 25  2015 [01;36mnc[0m -> [01;32m/etc/alternatives/nc[0m*
+-rwxr-xr-x  1 root root   31248 Dec  4  2012 [01;32mnc.openbsd[0m*
+lrwxrwxrwx  1 root root      24 Aug 25  2015 [01;36mnetcat[0m -> [01;32m/etc/alternatives/netcat[0m*
+-rwxr-xr-x  1 root root  119624 Aug  5  2014 [01;32mnetstat[0m*
+lrwxrwxrwx  1 root root       8 Aug 25  2015 [01;36mnisdomainname[0m -> [01;32mhostname[0m*
+-rwxr-xr-x  1 root root   59848 Dec 18  2013 [01;32mntfs-3g[0m*
+-rwxr-xr-x  1 root root   10312 Dec 18  2013 [01;32mntfs-3g.probe[0m*
+-rwxr-xr-x  1 root root   67608 Dec 18  2013 [01;32mntfs-3g.secaudit[0m*
+-rwxr-xr-x  1 root root   18432 Dec 18  2013 [01;32mntfs-3g.usermap[0m*
+-rwxr-xr-x  1 root root   26728 Dec 18  2013 [01;32mntfscat[0m*
+-rwxr-xr-x  1 root root   30752 Dec 18  2013 [01;32mntfsck[0m*
+-rwxr-xr-x  1 root root   30824 Dec 18  2013 [01;32mntfscluster[0m*
+-rwxr-xr-x  1 root root   34920 Dec 18  2013 [01;32mntfscmp[0m*
+-rwxr-xr-x  1 root root   22528 Dec 18  2013 [01;32mntfsdump_logfile[0m*
+-rwxr-xr-x  1 root root   39024 Dec 18  2013 [01;32mntfsfix[0m*
+-rwxr-xr-x  1 root root   55416 Dec 18  2013 [01;32mntfsinfo[0m*
+-rwxr-xr-x  1 root root   31928 Dec 18  2013 [01;32mntfsls[0m*
+-rwxr-xr-x  1 root root   26672 Dec 18  2013 [01;32mntfsmftalloc[0m*
+-rwxr-xr-x  1 root root   30824 Dec 18  2013 [01;32mntfsmove[0m*
+-rwxr-xr-x  1 root root   34856 Dec 18  2013 [01;32mntfstruncate[0m*
+-rwxr-xr-x  1 root root   43632 Dec 18  2013 [01;32mntfswipe[0m*
+lrwxrwxrwx  1 root root       6 Aug 25  2015 [01;36mopen[0m -> [01;32mopenvt[0m*
+-rwxr-xr-x  1 root root   18912 Feb 18  2013 [01;32mopenvt[0m*
+lrwxrwxrwx  1 root root      14 Aug 25  2015 [01;36mpidof[0m -> [01;32m/sbin/killall5[0m*
+-rwsr-xr-x  1 root root   44168 May  8  2014 [37;41mping[0m*
+-rwsr-xr-x  1 root root   44680 May  8  2014 [37;41mping6[0m*
+-rwxr-xr-x  1 root root   35448 Dec  3  2014 [01;32mplymouth[0m*
+-rwxr-xr-x  1 root root   31608 Dec  3  2014 [01;32mplymouth-upstart-bridge[0m*
+-rwxr-xr-x  1 root root   93232 Feb 11  2015 [01;32mps[0m*
+-rwxr-xr-x  1 root root   31392 Jan 14  2015 [01;32mpwd[0m*
+lrwxrwxrwx  1 root root       4 Aug 25  2015 [01;36mrbash[0m -> [01;32mbash[0m*
+-rwxr-xr-x  1 root root   39528 Jan 14  2015 [01;32mreadlink[0m*
+-rwxr-xr-x  1 root root      89 Jul 17  2013 [01;32mred[0m*
+-rwxr-xr-x  1 root root   60160 Jan 14  2015 [01;32mrm[0m*
+-rwxr-xr-x  1 root root   43648 Jan 14  2015 [01;32mrmdir[0m*
+lrwxrwxrwx  1 root root       4 Oct  1  2012 [01;36mrnano[0m -> [01;32mnano[0m*
+-rwxr-xr-x  1 root root     254 Jul 18  2014 [01;32mrunning-in-container[0m*
+-rwxr-xr-x  1 root root   19248 Aug 28  2013 [01;32mrun-parts[0m*
+-rwxr-xr-x  1 root root   73352 Feb 13  2014 [01;32msed[0m*
+-rwxr-xr-x  1 root root   39896 Feb 18  2013 [01;32msetfont[0m*
+-rwxr-xr-x  1 root root   12052 Jan 29  2014 [01;32msetupcon[0m*
+lrwxrwxrwx  1 root root       4 Aug 25  2015 [01;36msh[0m -> [01;32mdash[0m*
+lrwxrwxrwx  1 root root       4 Aug 25  2015 [01;36msh.distrib[0m -> [01;32mdash[0m*
+-rwxr-xr-x  1 root root   31296 Jan 14  2015 [01;32msleep[0m*
+-rwxr-xr-x  1 root root   76624 Jul 24  2015 [01;32mss[0m*
+lrwxrwxrwx  1 root root       7 Nov 15  2013 [01;36mstatic-sh[0m -> [01;32mbusybox[0m*
+-rwxr-xr-x  1 root root   68256 Jan 14  2015 [01;32mstty[0m*
+-rwsr-xr-x  1 root root   36936 Jul 16  2015 [37;41msu[0m*
+-rwxr-xr-x  1 root root   27200 Jan 14  2015 [01;32msync[0m*
+-rwxr-xr-x  1 root root   18816 Aug  5  2015 [01;32mtailf[0m*
+-rwxr-xr-x  1 root root  353840 Feb  4  2014 [01;32mtar[0m*
+-rwxr-xr-x  1 root root   10344 Aug 28  2013 [01;32mtempfile[0m*
+-rwxr-xr-x  1 root root   60224 Jan 14  2015 [01;32mtouch[0m*
+-rwxr-xr-x  1 root root   27168 Jan 14  2015 [01;32mtrue[0m*
+-rwxr-xr-x  1 root root  248040 Jul 16  2015 [01;32mudevadm[0m*
+-rwxr-xr-x  1 root root   14336 May 15  2015 [01;32mulockmgr_server[0m*
+-rwsr-xr-x  1 root root   69120 Aug  5  2015 [37;41mumount[0m*
+-rwxr-xr-x  1 root root   31360 Jan 14  2015 [01;32muname[0m*
+-rwxr-xr-x  2 root root    2303 Jan 10  2014 [01;32muncompress[0m*
+-rwxr-xr-x  1 root root    2762 Feb 18  2013 [01;32municode_start[0m*
+-rwxr-xr-x  1 root root  110080 Jan 14  2015 [01;32mvdir[0m*
+-rwxr-xr-x  1 root root     946 Aug 28  2013 [01;32mwhich[0m*
+-rwxr-xr-x  1 root root   27368 Mar 23  2014 [01;32mwhiptail[0m*
+lrwxrwxrwx  1 root root       8 Aug 25  2015 [01;36mypdomainname[0m -> [01;32mhostname[0m*
+-rwxr-xr-x  1 root root    1939 Jan 10  2014 [01;32mzcat[0m*
+-rwxr-xr-x  1 root root    1779 Jan 10  2014 [01;32mzcmp[0m*
+-rwxr-xr-x  1 root root    5766 Jan 10  2014 [01;32mzdiff[0m*
+-rwxr-xr-x  1 root root     142 Jan 10  2014 [01;32mzegrep[0m*
+-rwxr-xr-x  1 root root     142 Jan 10  2014 [01;32mzfgrep[0m*
+-rwxr-xr-x  1 root root    2133 Jan 10  2014 [01;32mzforce[0m*
+-rwxr-xr-x  1 root root    5940 Jan 10  2014 [01;32mzgrep[0m*
+-rwxr-xr-x  1 root root    2039 Jan 10  2014 [01;32mzless[0m*
+-rwxr-xr-x  1 root root    1912 Jan 10  2014 [01;32mzmore[0m*
+-rwxr-xr-x  1 root root    5049 Jan 10  2014 [01;32mznew[0m*
+]0;ubuntu@vm10-38-11-193: ~ubuntu@vm10-38-11-193:~$ logout
+Connection to 10.38.11.193 closed.
+]0;root@tj-g-vm-publishing-prod-ranch0-g1:~[root@tj-g-vm-publishing-prod-ranch0-g1 ~]# logout
+[32mrelay-shell>[0m Connection to relay.xiaomi.com closed.
+]0;root@newpc: /home/swordroot@newpc:/home/sword# exit
+
+脚本完成，于 2017年05月04日 星期四 15时22分55秒
